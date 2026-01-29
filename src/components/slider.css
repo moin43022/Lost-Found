@@ -1,0 +1,148 @@
+.slider-container {
+  width: 100%;
+  max-width: 1205px;
+  margin: 40px 0px;
+  overflow: hidden;
+  padding: 10px 0;
+  justify-self: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.slider-h1{
+    margin-top: 10px;
+      color: #3F4F3A;
+     font-family:"Open Sans Condensed", sans-serif;
+  position: relative;
+   margin-bottom: 20px;
+   align-self: center;
+}
+
+.slider-h1::after {
+
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #1F5D0A, #7A9B3A);
+  transition: width 0.35s ease;
+  border-radius: 2px;
+  color: #3F4F3A;
+  width: 100%;
+ 
+}
+.slider-container p{
+     color: #777;
+     align-self: center;
+}
+.slider-track-div {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 16px;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-img {
+  height: 260px;
+  background-image: url("./personicon.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+   margin: 10px;
+}
+
+
+
+.card {
+  min-width: calc(280px - 5px);
+  background: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+ border: silver solid 1px;
+}
+
+.slider-role {
+  position: absolute;
+  background: linear-gradient(
+    135deg,
+    #FDECEC,
+    #F6F4D2,
+    #E6F8B2
+  );
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 10px;
+  height: 18%;
+  transition: all 0.4s ease-in-out;  
+}
+
+
+.card:hover .slider-role {
+  height: 31%;
+}
+
+
+.card:hover {
+ cursor: pointer;
+}
+
+
+.card img {
+  width: 80%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+.card p {
+  font-size: 13.5px;
+ 
+  margin: 0;
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+.slider-container {
+  max-width: 910px;
+}
+}
+@media (min-width: 600px) and (max-width: 800px) {
+.slider-container {
+  max-width: 610px;
+}
+
+.slider-container p {
+margin-left: 10px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.slider-container {
+  max-width: 310px;
+}
+
+.slider-container p {
+margin-left: 10px;
+font-size: 0.8rem;
+}
+.slider-h1{
+  font-size: 1.3rem;
+}
+}
