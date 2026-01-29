@@ -14,7 +14,6 @@ import {
   faShirt,
   faDog,
   faFootball,
-  faEllipsisH,
   faCar
 } from "@fortawesome/free-solid-svg-icons";
 import "./category.css"
