@@ -118,10 +118,14 @@ width: 150px;
     min-width: 320px;
     padding-right: 10px;
    flex-direction: column;
-   text-align: center;
    gap: 20px;
-align-items: center;
 }
-
-
+.footer-main-div ul {
+    margin-left: 30px;
+}
+.footer-copyright-div{
+    margin-top: 30px;
+    align-self: center;
+    margin-bottom: 10px;
+}
 }

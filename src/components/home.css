@@ -191,13 +191,13 @@ body{
 @media (min-width: 320px) and (max-width: 480px) {
  
   .mid-main{
+    padding-top: 170px;
       background: linear-gradient(
     135deg,
     #FDECEC,
     #F6F4D2,
     #E6F8B2
   );
-    padding-top: 30px;
     min-height: 400px;
     max-height: 800px;
     flex-direction: column;

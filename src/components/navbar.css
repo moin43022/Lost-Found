@@ -126,6 +126,9 @@ color: #2F5D0A;
 .menu-icon.open div:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -7px);
 }
+.contact-nav{
+  display: none;
+}
 @media (min-width: 1024px) and (max-width: 1300px) {
   .navbar-m-div-right{
     min-width: 550px;
@@ -137,6 +140,9 @@ color: #2F5D0A;
 
 
 @media (min-width: 600px) and (max-width: 800px) {
+  .contact-nav{
+  display: block;
+}
   .navbar-m-div-left-text h1 {
     font-size: 1rem;
   }
@@ -180,6 +186,14 @@ display: block;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .contact-nav{
+  display: block;
+}
+  .navbar-m-div{
+    position: fixed;
+     z-index: 9999;
+     width: 100%;
+  }
   .navbar-m-div-left-text h1 {
     font-size: 1rem;
   }
@@ -191,7 +205,7 @@ display: block;
     display: flex;
     justify-self: flex-end;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
 .nav-links {
@@ -203,21 +217,28 @@ display: block;
   right: 10px;
   flex-direction: column;
   gap: 25px;
-  padding: 20px 0;
-  display: none;
+ 
     background: linear-gradient(
     135deg,
     #FDECEC,
     #F6F4D2,
     #E6F8B2
   );
+  backdrop-filter: blur(12px);
+  height: 650px;
+  padding-top: 30px;
+  padding-bottom: 200px;
 }
 
-.nav-links.show {
-display: block;
-  display: flex;
-  justify-content: space-evenly;
+.nav-links {
+  pointer-events: none;
 }
+
+.nav-links[style*="opacity: 1"] {
+  pointer-events: auto;
+  position: fixed;
+}
+
 
 
 }

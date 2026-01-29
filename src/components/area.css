@@ -127,8 +127,7 @@
   .main-area-div{
     flex-direction: column;
     gap: 25px;
-    width: 100%;
-    border-radius: 0px;
+    width: 95%;
   }
   .area-div-left{
     width: 100%;

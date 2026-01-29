@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
        <div className='footer-contact-div'>
              <ul>
-            <h1>Contact</h1>
+            <h1>Contact Us</h1>
             <li>Tel : +94 716520690</li>
             <li>Phone : +91 1234567890</li>
             <li>Email : lost&found@gmail.com</li>
