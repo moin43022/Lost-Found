@@ -1,0 +1,98 @@
+.about-div{
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+min-height: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-text{
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.about-heading{
+ width: 215px;
+}
+.second-p-about{
+    margin-top: 50px;
+}
+.about-text h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  align-self: center;
+      background: linear-gradient(
+    135deg,
+    #FDECEC,
+    #F6F4D2,
+    #E6F8B2
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    margin-bottom: 30px;
+  }
+.about-text h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2.5px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg,  #FDECEC,  #E6F8B2);
+  transition: width 0.35s ease;
+  border-radius: 2px;
+  width: 100%;
+
+}
+
+.about-text p{
+     font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+      background: linear-gradient(
+    135deg,
+    #FDECEC,
+    #F6F4D2,
+    #E6F8B2
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+.about-div {
+    min-height: 500px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+.second-p-about,.third-p-about{
+    display: none;
+}
+.about-div {
+    margin-top: 80px;
+    min-height: 450px;
+}
+.about-text{
+    width: 85%;
+}
+.about-text p{
+    font-size: 0.9rem;
+}
+.about-text h1{
+    font-size: 2rem;
+    width: 145px;
+}
+}

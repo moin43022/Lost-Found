@@ -1,0 +1,232 @@
+.main-lost-div{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+.lost-upper-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:20px;
+  width: 100%;
+}
+
+
+
+.lost-upper-div h1{
+    color: #3F4F3A;
+     font-family:"Open Sans Condensed", sans-serif;
+     font-size: 3rem;
+     margin-bottom: 10px;
+     position: relative;
+}
+.lost-upper-div h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #1F5D0A, #7A9B3A);
+  transition: width 0.35s ease;
+  border-radius: 2px;
+  color: #3F4F3A;
+  width: 100%;
+}
+
+.lost-search-bar{
+  width: 40%;
+  height: 50px;
+  border: solid 1px silver;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 15px;
+}
+.lost-search-bar i{
+  font-size: 1.5rem;
+  color: 49454F;
+}
+#search-icon:hover{
+  cursor: pointer;
+}
+.lost-search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000;
+  width: 92%;
+  font-size: 1.25rem;
+}
+
+
+.lost-card-div{
+  align-self: center;
+  width: 95%;
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 25px;
+
+}
+  
+
+.lost-card {
+  width: 100%;
+  max-width: 300px;
+  background: #fdf7fb;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: Arial, sans-serif;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.lost-card:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+  box-shadow: 0px 16px 5px rgba(0,0,0,0.2);
+}
+/* Header */
+.lost-card-header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #f7f1f6;
+}
+
+.lost-avatar {
+  width: 40px;
+  height: 40px;
+  background: #7b6aa7;
+  color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.lost-card-header h4 {
+  margin: 0;
+}
+
+.lost-card-header p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+/* Image */
+.lost-card-image {
+  background: #ddd;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lost-triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid #9fa4a7;
+  margin-bottom: 15px;
+}
+
+.lost-shapes {
+  display: flex;
+  gap: 20px;
+}
+
+.lost-square {
+  width: 40px;
+  height: 40px;
+  background: #9fa4a7;
+}
+
+.lost-circle {
+  width: 40px;
+  height: 40px;
+  background: #9fa4a7;
+  border-radius: 50%;
+}
+
+/* Content */
+.lost-card-content {
+  padding:16px 16px 5px 16px;
+}
+
+.lost-card-content h3 {
+  margin: 0;
+}
+
+.lost-location {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.lost-desc {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.lost-btn {
+  background: #6d57a4;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  float: right;
+  cursor: pointer;
+}
+.lost-btn:hover{
+  background-color: #746599;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.lost-heading{
+  display: none;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .lost-search-bar {
+    width: 70%;
+  }
+ 
+}
+@media (min-width: 320px) and (max-width:480px) {
+  .main-lost-div{
+    margin-top: 120px;
+  }
+  .lost-card {
+    max-width: 95%;
+  }
+  .lost-h1{
+    display: none;
+  }
+  .lost-heading{
+    display: block;
+  }
+.lost-search-bar{
+  width: 80%;
+}
+.lost-upper-div h1{
+  font-size: 2rem;
+}
+  .lost-card-image {
+    height: 140px;
+  }
+}

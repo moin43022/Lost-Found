@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
-import {motion,AnimatePresence} from "framer-motion"
+import {motion,AnimatePresence} from "framer-motion";
+import {Link } from "react-router-dom";
 import "./navbar.css"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,12 +45,17 @@ const Navbar = () => {
     damping: 22,
   }}
 >
-  <li>Home</li>
-  <li>About Us</li>
-  <li className='contact-nav'>Contact Us</li>
-  <li>Report Lost</li>
-  <li>Report Found</li>
-  <button>Sign in</button>
+  <Link to="/" onClick={() => setMenuOpen(false)}><li>Home</li></Link>
+  <Link to="/about" onClick={() => setMenuOpen(false)}> <li>About Us</li></Link>
+  <Link to="/" className='contact-nav' onClick={() => setMenuOpen(false)}><li >Contact Us</li></Link>
+  <Link to="/lost" onClick={() => setMenuOpen(false)}><li>Lost Items</li></Link>
+  <Link to="/found" onClick={() => setMenuOpen(false)}> <li>Found Items</li></Link>
+  <Link to="/" onClick={() => setMenuOpen(false)}> <button>Sign in</button></Link>
+ 
+  
+ 
+ 
+ 
 </motion.ul>
 
         </div>     

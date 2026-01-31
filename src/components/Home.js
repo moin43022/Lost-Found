@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./home.css"
 const Home = () => {
 
@@ -21,14 +22,18 @@ const Home = () => {
       </div>
        <div className='mid-main-div-right'>
          <div className='mid-right-top'>
+          <Link to="/lostform">
              <div className='mid-right-btn'>
              <p>Lost</p>
              <img alt='lost' src='lost-img.png'  id='lost-img'/>
              </div>
+             </Link>
+             <Link to="/foundform">
                <div className='mid-right-btn' id='mid-right-green'>
                   <p>Found</p>
              <img alt='found' src='found-img.png' />
              </div>
+             </Link>
       </div>
        <div className='mid-right-bottom'>
         <img alt='group' src='group.png' />

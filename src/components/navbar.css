@@ -9,7 +9,9 @@
     #EAF4D3
   );
 }
-
+a{
+  text-decoration: none;
+}
 .navbar-m-div-left{
     display: flex;
 }
@@ -77,10 +79,10 @@ font-family: 'Bruno Ace SC', sans-serif;
   width: 100%;
 }
 .navbar-m-div-right ul button{
-background-color: #2F5D0A;
-  color: whitesmoke;
+background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
+  color: #fff;
   font-size: 1.2rem;
-      padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 999px;
   font-family: 'Abel', sans-serif;
   font-weight: 600;
@@ -91,9 +93,10 @@ background-color: #2F5D0A;
 }
 
 .navbar-m-div-right ul button:hover {
-background-color: transparent;
-color: #2F5D0A;
-
+  background: transparent;         
+  color: #3F4F3A;                 
+  border: 1px solid #3F4F3A;       
+  opacity: 1;                      
 }
 
 .menu-icon {
