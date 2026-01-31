@@ -143,6 +143,7 @@ body{
   .mid-main{
     padding-top: 40px;
     min-height: 380px;
+     padding-top: 130px;
   }
   .mid-main h1, .mid-main-div-left span{
     font-size: 3rem;

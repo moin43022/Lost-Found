@@ -5,7 +5,7 @@ import {Link } from "react-router-dom";
 import "./navbar.css"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-   const isMobilee = window.innerWidth < 770;
+   const isMobilee = window.innerWidth < 801;
   return (
     <div className='navbar-m-div'>
         <div className='navbar-m-div-left'>
