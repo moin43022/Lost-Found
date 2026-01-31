@@ -157,11 +157,13 @@ background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
     display: flex;
     justify-self: flex-end;
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
   }
-
+.navbar-m-div-left-text{
+    margin-top: 40px;
+  }
 .nav-links {
-  margin-top: 80px;
+  margin-top: 90px;
   position: absolute;
   top: 0px;
   left: 0;
@@ -224,10 +226,10 @@ background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
   }
 
 .nav-links {
-  margin-top: 80px;
+  margin-top: 90px;
   position: absolute;
   top: 0px;
-  
+  border: none;
   left: 0;
   right: 10px;
   flex-direction: column;
