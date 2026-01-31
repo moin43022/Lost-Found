@@ -13,6 +13,7 @@ import Found from "./components/Found"
 import Lostform from './components/Lostform';
 import Foundform from './components/Foundform';
 import About from './components/About';
+import Contact from './components/Contact';
 function App() {
   return (
 
@@ -76,6 +77,13 @@ function App() {
               <>
             <Navbar />
             <About />
+            <Footer />
+              </>
+            } />
+               <Route path="/contact" element={
+              <>
+            <Navbar />
+            <Contact />
             <Footer />
               </>
             } />

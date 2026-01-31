@@ -1,0 +1,62 @@
+.contact-header{
+     background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./contact.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-header h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  align-self: center;
+      background: linear-gradient(
+    135deg,
+    #FDECEC,
+    #F6F4D2,
+    #E6F8B2
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    margin-bottom: 40px;
+    width: 255px;
+  }
+.contact-header h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2.5px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg,  #FDECEC,  #E6F8B2);
+  transition: width 0.35s ease;
+  border-radius: 2px;
+  width: 100%;
+
+}
+
+.contact-header p{
+     font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+      background: linear-gradient(
+    135deg,
+    #FDECEC,
+    #F6F4D2,
+    #E6F8B2
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 70%;
+}
