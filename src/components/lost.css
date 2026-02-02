@@ -65,17 +65,18 @@ gap:20px;
 
 .lost-card-div{
   align-self: center;
-  width: 95%;
+  width: 100%;
   display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  row-gap: 25px;
-
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 50px;
+  column-gap: 25px;
+padding: 0px 10px;
 }
   
 
 .lost-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   background: #fdf7fb;
   border-radius: 16px;
   overflow: hidden;
@@ -205,7 +206,9 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   .lost-search-bar {
     width: 70%;
   }
- 
+ .main-lost-div{
+  margin-top: 120px;
+ }
 }
 @media (min-width: 320px) and (max-width:480px) {
   .main-lost-div{
