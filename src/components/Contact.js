@@ -38,7 +38,14 @@ We’re here to help and support you at every step of your journey with us. If y
       </div>
       </section>
 <div className='mapandform'>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42430.8877695471!2d75.60094035025195!3d21.832400211698374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd885c4bd93b163%3A0xae95ec27b40bf31d!2sKhargone%2C%20Madhya%20Pradesh%20451001!5e0!3m2!1sen!2sin!4v1770030651875!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe
+  title="Location Map of Khargone, MP"
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42430.8877695471!2d75.60094035025195!3d21.832400211698374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd885c4bd93b163%3A0xae95ec27b40bf31d!2sKhargone%2C%20Madhya%20Pradesh%20451001!5e0!3m2!1sen!2sin!4v1770030651875!5m2!1sen!2sin"
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
+
 <div className='form-div-c'>
  <h1> Send Us a Message</h1>
      
