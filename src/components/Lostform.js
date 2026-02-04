@@ -7,11 +7,11 @@ const Lostform = () => {
       <form>
         <div> 
         <label>Item : </label>
-       <input type='text'/>
+       <input type='text' placeholder='Item Name'/>
         </div>
        <div> 
         <label>Location : </label>
-       <input type='text'/>
+       <input type='text' placeholder='Location'/>
         </div>
           <div> 
         <label>Date : </label>
@@ -19,7 +19,7 @@ const Lostform = () => {
         </div>
           <div> 
         <label>Description : </label>
-       <textarea></textarea>
+       <textarea placeholder='Massage'></textarea>
         </div>
       <div>
   <label className="form-label">Upload Photo :</label>

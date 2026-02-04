@@ -9,7 +9,7 @@
    flex-direction: column;
    gap: 25px;
    margin-bottom: 90px;
-   background-color: whitesmoke;
+   background-color: white;
   }
   
   .category-main-div h1{
@@ -97,5 +97,6 @@
 
 .category-items h3{
   font-size: 1rem;
+  
 }
     }
