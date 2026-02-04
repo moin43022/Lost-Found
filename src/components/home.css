@@ -1,10 +1,11 @@
 body{
-   background: linear-gradient(
+   /* background: linear-gradient(
     135deg,
     #FDECEC,
     #F6F4D2,
     #E6F8B2
-  );
+  ); */
+ background-color: rgb(241, 241, 241);
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -26,8 +27,10 @@ body{
  padding-top: 60px;
  display: flex;
  justify-content: space-around;
- margin-bottom: 70px;
-
+    
+}
+.mid-main-div-right{
+  margin-top: 15px;
 }
 
 .mid-main-div-left{
@@ -40,25 +43,42 @@ body{
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  width: 35%;
+  width: 45%;
+  margin-top: 20px;
 }
-.mid-main-div-left p{
-  font-weight: bold;
+.mid-main-div-p{
+  font-weight: 600;
+  word-spacing: 2px;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+} 
+/* .mid-main-last-p{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.mid-main-last-p p,i{ 
+  font-weight: 600;
   word-spacing: 2px;
   margin-bottom: 10px;
+  font-size: 1.5rem;
+}  */
+#p-main{
+  margin-top: 25px;
 }
 .mid-main h1{
   font-family: 'Inter', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
+  margin-bottom: 15px;
   }
 
-.mid-main-div-left span {
-  font-size: 5rem;
+/* .mid-main-div-left span {
+  font-size: 4rem;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
 
-}
+} */
 
 #mid-right-green{
    background: linear-gradient(135deg, #00CB14, #00650A);
@@ -124,6 +144,8 @@ body{
   display: none;
 }
 
+
+
 @media (min-width: 1024px) and (max-width: 1300px) {
   .navbar-m-div-right{
     min-width: 500px;
@@ -133,7 +155,11 @@ body{
     padding: 50px 25px;
   }
   .mid-main-div-p{
-    display: none;
+  font-size: 1.3rem;
+}
+  .mid-main h1{
+    margin-bottom: 30px;
+    font-size: 3.25rem;
   }
 }
 
@@ -141,25 +167,34 @@ body{
 @media (min-width: 600px) and (max-width: 800px) {
  
   .mid-main{
-    padding-top: 40px;
-    min-height: 380px;
+    min-height: 475px;
      padding-top: 130px;
   }
-  .mid-main h1, .mid-main-div-left span{
-    font-size: 3rem;
+  .mid-main-div-p{
+  font-size: 1rem;
+  margin-bottom: 7.5px;
+}
+#p-main{
+  margin-top: 10px;
+}
+  .mid-main h1{
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+  }
+
+  #p-main-last{
+    display: none;
   }
 .mid-right-top{
   align-items: center;
   padding-top: 0px;
 }
 .mid-main-div-left{
-  width: 45%;
+  width: 50%;
+  margin-top: 0px;
 }
-.mid-main-div-left p{
-  margin-top: 10px;
-}
-.mid-main-div-p{
-  display: none;
+.mid-main-div-right{
+  margin-top: 0px;
 }
   .mid-right-btn {
     padding: 0px 10px;

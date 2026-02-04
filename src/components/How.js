@@ -33,7 +33,7 @@ const How = () => {
           </div>
              <div className='vision-text'>
                <h2>Step 3: Start reporting</h2>
-               <p>You can start creating the ad for the lost or found items now to claim the item or hand over it to the rightful owner. Once done, we will post the ad on the large community where everybody can potentially take action in searching for what you have lost.</p>
+               <p>Create an ad for lost or found items to claim what you’ve lost or hand it over to the rightful owner. After submission, the ad will be posted to our wide community, where people can actively participate in helping locate the item.</p>
 
           </div>
          </div>

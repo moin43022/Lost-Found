@@ -77,7 +77,7 @@ const Area = () => {
     </div>
      <div className='area-div-right'>
      <div className='div-right-img'>
-        <img alt='kgn' src='kgn.png' />
+        <img alt='kgn' src='kgnn.png' />
      </div>
         <h2><i class="fa-solid fa-earth-americas"></i> Khargone City </h2>
     </div>

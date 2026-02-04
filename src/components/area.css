@@ -1,4 +1,5 @@
 .main-area-div{
+ background-color: whitesmoke;
   margin-top: 25px;
   margin-bottom: 25px;
   width: 90%;
@@ -8,8 +9,9 @@
    padding: 15px;
    display: flex;
    justify-content: space-between;
-   margin-bottom: 70px;
+   margin-bottom: 100px;
 }
+
 .area-div-left{
     width: 60%;
     display: flex;
@@ -22,11 +24,13 @@
     color: #3F4F3A;
      font-family:"Open Sans Condensed", sans-serif;
      margin-bottom: 10px;
+     font-size: 2.25rem;
 }
 .area-div-right h2{
-     color: #3F4F3A;
+     color: #1F5D0A;
      font-family:"Open Sans Condensed", sans-serif;
      text-align: center;
+      margin-top: 15px;
 }
 .div-left-list{
     display: flex;
@@ -44,6 +48,7 @@
   text-decoration: underline;
   text-decoration-color: transparent; 
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
+  font-size: 1.1rem;
 }
 
 .area-div-left ul li:hover {
@@ -59,21 +64,19 @@
     padding: 7px 0px;
     border-radius: 5px;
     font-family: 'Abel', sans-serif;
-    transition: all 0.3s ease;
-      border: none;
+    border: none;
     cursor: pointer;
-     border: solid 1px #2F5D0A;
-     background-color: #2F5D0A;
-  color: whitesmoke;
-  margin-bottom: 15px;
-  margin-top: 10px;
+    border: solid 1px #2F5D0A;
+    background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
+    color: whitesmoke;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 .more-btn i{
     margin-left: 7px;
 }
 .more-btn:hover{
-    background-color: #23640e;
-    color: rgb(218, 218, 218);
+    opacity: 0.9;
 }
 .div-right-img{
     width: 300px;
@@ -88,10 +91,16 @@
 
 
 
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (max-width: 1350px) {
 .area-div-left{
   width: 65%;
 }
+    .last-wards {
+        display: none;
+    }
+    .more-btn{
+      width: 25%;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
@@ -112,13 +121,10 @@
   }
   .more-btn{
     width: 27%;
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .area-div-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: none;
   }
 
 }

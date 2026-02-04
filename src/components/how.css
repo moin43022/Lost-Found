@@ -1,11 +1,13 @@
 .mid-div{
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 justify-self: center;
-margin-bottom: 70px;
+padding-bottom: 100px;
+padding-top: 70px;
+width: 100%;
 }
 .mid-div-heading{
     font-size: 2.5rem;
@@ -27,7 +29,7 @@ margin-bottom: 70px;
   transition: width 0.35s ease;
   border-radius: 2px;
   color: #3F4F3A;
-  width: 95%;
+  width: 100%;
 }
 .mid-div-heading-hide{
     font-size: 2.5rem;
@@ -54,17 +56,26 @@ margin-bottom: 70px;
 }
 .mid-div-bottom{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:  repeat(auto-fit, minmax(380px, 1fr));
     margin-top: 45px;
+    row-gap: 30px;
+    column-gap: 25px;
+    justify-content: space-between;
+    width: 90%;
+    
 }
 .vision{
-    height: 500px;
-    padding: 25px;
+    background-color: whitesmoke;
+   justify-self: center;
+    height: 360px;
+    width: 380px;
+    padding:30px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    border:  1px transparent solid;
+   gap: 40px;
+    border:  1px silver solid;
+    border-radius: 12px;
     transition: transform 0.3s, border 0.3s;
 }
 .vision:hover {
@@ -74,8 +85,8 @@ margin-bottom: 70px;
 }
 
 .vision-icon{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -84,7 +95,7 @@ margin-bottom: 70px;
 }
 .vision-icon i{
     color: #3F4F3A;
-    font-size: 70px;
+    font-size: 60px;
 }
 .vision-text{
     width: 93%;
@@ -100,6 +111,7 @@ margin-bottom: 70px;
 }
 .vision-text p{
     text-align: justify;
+    margin-top: 10px;
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
 

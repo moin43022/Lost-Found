@@ -25,8 +25,8 @@ function App() {
               <>
             <Navbar />
             <Home />
-            <SkillsSlider />
             <How />
+            <SkillsSlider />
             <Area />
             <Category />
             <Slider />
