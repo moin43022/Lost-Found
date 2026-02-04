@@ -54,18 +54,18 @@ const Area = () => {
       <div className='area-div-left'>
         <h1> <i class="fa-solid fa-location-dot"></i> Choose a ward</h1>
     <div className="div-left-list">
-  <ul>
+  <ul className='first-ul'>
     {ward.slice(0, 7).map((ward, index) => (
       <li key={index}>{ward}</li>
     ))}
   </ul>
 
-  <ul>
+  <ul className='last-ul'>
     {ward.slice(7, 14).map((ward, index) => (
       <li key={index} className='last-wards1'>{ward} </li>
     ))}
   </ul>
-   <ul>
+   <ul className='last-ul'>
     {ward.slice(14, 21).map((ward, index) => (
       <li key={index} className='last-wards'>{ward}</li>
     ))}

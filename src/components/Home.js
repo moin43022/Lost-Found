@@ -11,7 +11,6 @@ const Home = () => {
           <h1 className='find'>Found Something?</h1>
           <h1 className='find'>Lost Something?</h1>
           <h1 className='find'> We’ve Got You.</h1>
-          <h1 className='fire'>Find & Recover</h1>
           {/* <span className='with'>With</span> <span className='ease'> Ease</span> */}
           {/* <p>Experience effortless recovery with our dedicated lost and found service.</p>
           <div className='mid-main-div-p'>
@@ -22,8 +21,8 @@ const Home = () => {
          <p className='mid-main-div-p' id='p-main'>• Secure and trusted platform.</p>
          <p className='mid-main-div-p'>• Simple, user-friendly experience.</p>
          <p className='mid-main-div-p'>• Report lost or found items easily.</p>
-         <p className='mid-main-div-p'>• Helping lost items find their way home.</p>
-         <p className='mid-main-div-p'  id='p-main-last'>• Faster recovery through community support.</p>
+         <p className='mid-main-div-p'  id='p-main-last'>• Helping lost items find their way home.</p>
+         <p className='mid-main-div-p' id='p-main-last' >• Faster recovery through community support.</p>
         
         {/* <div className='mid-main-last-p'>
          <p> <i class="fa-solid fa-check"></i> Secure Platform </p>

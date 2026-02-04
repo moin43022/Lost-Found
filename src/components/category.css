@@ -72,8 +72,13 @@
  /* #FDECEC,
     #F6F4D2,
     #E6F8B2 */
-
-
+  
+    @media (min-width: 600px) and (max-width: 800px) {
+  .category-div-items{
+   
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+  }
+}
     @media (min-width: 320px) and (max-width: 480px) {
 
       .category-main-div{
@@ -84,7 +89,7 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
       .category-main-div h1{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
       }
       .category-items .category-icon {
     font-size: 4rem;

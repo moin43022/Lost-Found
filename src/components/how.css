@@ -161,10 +161,10 @@ width: 100%;
     margin-bottom: 0px;
 }
 .vision{
-    height: 250px;
-    width: 80%;
+    height: 280px;
+    width: 90%;
     border: solid 1px silver;
-    padding:5px 10px;
+    padding:20px 10px 10px 10px;
 }
 .vision-icon{
     height: 100px;
