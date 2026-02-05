@@ -371,15 +371,29 @@ gap: 25px;
     .contact-div{
     margin-top: 50px;
   }
+  .contact-heading h1{
+    font-size: 2rem;
+    width: 170px;
+    margin-bottom: 20px;
+  }
   .contact-header{
-    height: 500px;
+       background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
+    url("./cncn.jpg");
+      background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+    height:350px;
+    margin-top: 30px;
+
   }
   .contact-heading{
     margin-top: 100px;
   }
   .contact-heading p{
     width: 85%;
-   
+   font-size: 0.9rem;
+   text-align: justify;
   }
 .contact-mid{
   min-width: 100%;
