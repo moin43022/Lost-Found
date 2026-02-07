@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  background-color: white;
+
 }
 .contact-header{
      background:
@@ -17,7 +17,7 @@
   align-items: center;
 }
 .contact-heading{
-  margin-top: 80px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,6 +163,7 @@ border: solid silver 1px;
 border-radius: 10px;
 height: 1000px;
 margin-bottom: 50px;
+background-color: white;
 }
 
 .contact-mid .mapandform{
@@ -387,13 +388,11 @@ gap: 25px;
     margin-top: 30px;
 
   }
-  .contact-heading{
-    margin-top: 100px;
-  }
+ 
   .contact-heading p{
     width: 85%;
    font-size: 0.9rem;
-   text-align: justify;
+   text-align: center;
   }
 .contact-mid{
   min-width: 100%;
@@ -414,13 +413,11 @@ gap: 25px;
 .form-div-c{
   height: 650px;
    padding: 40px 0px;
-   width: 100%;
-   border-radius: 0px;
+   width: 90%;
 }
 .contact-mid iframe{
-  width: 100%;
+  width: 90%;
   height: 350px;
-  border-radius: 0px;
 }
 
 .form-div-c div{

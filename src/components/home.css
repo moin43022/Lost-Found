@@ -236,7 +236,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 0px;
   }
   .mid-main h1, .mid-main-div-left span{
     font-size: 2.2rem;
