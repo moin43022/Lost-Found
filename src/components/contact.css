@@ -380,17 +380,17 @@ gap: 25px;
   .contact-header{
        background:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
-    url("./cncn.jpg");
-      background-size:contain;
+    url("./cncnc.jpg");
+      background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-    height:350px;
+    height:600px;
     margin-top: 30px;
 
   }
  
   .contact-heading p{
-    width: 85%;
+    width: 90%;
    font-size: 0.9rem;
    text-align: center;
   }

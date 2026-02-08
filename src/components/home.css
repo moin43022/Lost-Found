@@ -224,7 +224,7 @@ body{
 @media (min-width: 320px) and (max-width: 480px) {
  
   .mid-main{
-    padding-top: 120px;
+    padding-top: 110px;
       background: linear-gradient(
     135deg,
     #FDECEC,
@@ -238,6 +238,7 @@ body{
     align-items: center;
     gap: 0px;
   }
+  
   .mid-main h1, .mid-main-div-left span{
     font-size: 2.2rem;
     color: black;
@@ -250,6 +251,7 @@ body{
 .mid-main-div-left{
   width: 85%;
   text-align: center;
+  margin-top: 0px;
 }
 .mid-main-div-left p{
 display: none;
@@ -273,7 +275,7 @@ display: none;
   min-width: 250px;
   max-width: 250px;
   height: 150px;
-  margin-top: 30px;
+  margin-top:20px;
   margin-bottom: 20px;
  }
  .mid-right-bottom img{

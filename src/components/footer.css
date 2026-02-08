@@ -49,7 +49,17 @@ width: 150px;
   transition: text-decoration-color 0.3s ease, color 0.3s ease;
 }
 
-.footer-main-div li:hover {
+.footer-links-div li:hover {
+  color: #1F5D0A;
+  text-decoration-color: #1F5D0A; 
+  cursor: pointer;
+}
+.footer-site-div li:hover {
+  color: #1F5D0A;
+  text-decoration-color: #1F5D0A; 
+  cursor: pointer;
+}
+.footer-help-div li:hover {
   color: #1F5D0A;
   text-decoration-color: #1F5D0A; 
   cursor: pointer;

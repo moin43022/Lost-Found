@@ -318,10 +318,17 @@ border-radius: 10px;
 }
 .about-div {
     margin-top: 80px;
-    min-height: 450px;
+    min-height: 600px;
+        background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./aaaaaa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-text{
     width: 85%;
+    padding-top: 30px;
 }
 .about-text p{
     font-size: 0.9rem;
@@ -329,11 +336,13 @@ border-radius: 10px;
 .about-text h1{
     font-size: 2rem;
     width: 145px;
+    margin-bottom: 10px;
 }
 .about-mid{
    flex-direction: column;
    height: auto;
    gap: 50px;
+   padding: 10px;
 }
 .about-mid-left {
     width: 100%;
