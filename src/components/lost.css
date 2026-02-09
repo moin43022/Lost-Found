@@ -215,12 +215,12 @@ opacity: 0.9;
     padding-top: 120px;
   }
   .lost-card {
-    min-width: 300px;
+    min-width: 280px;
     max-width: 350px;
   }
   .lost-card-div {
-   
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   padding: 0px 15px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     row-gap: 50px;
     column-gap: 25px;
  

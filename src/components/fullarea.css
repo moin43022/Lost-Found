@@ -1,0 +1,148 @@
+:root {
+  --green-dark: #3F4F3A;
+  --green-main: #1F5D0A;
+  --green-deep: #254A19;
+  --bg-light: #f6f8f5;
+}
+
+.area-page {
+  min-height: 100vh;
+  background: var(--bg-light);
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.area-container {
+  max-width: 1100px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 14px 40px rgba(63, 79, 58, 0.18);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.area-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  margin-bottom: 6px;
+  color: var(--green-main);
+  align-self: center;
+}
+
+
+.area-title i {
+  color: var(--green-deep);
+}
+
+.area-subtitle {
+  color: var(--green-dark);
+  margin-bottom: 24px;
+  font-size: 1rem;
+  align-self: center;
+}
+
+#ward-search {
+  width: 60%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--green-dark);
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  align-self: center;
+}
+
+.ward-search:focus {
+  outline: none;
+  border-color: var(--green-main);
+}
+
+
+.ward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+
+.ward-card {
+  padding: 16px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid var(--green-dark);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-weight: 500;
+  color: var(--green-dark);
+}
+
+.ward-card:hover {
+  color: var(--green-main);
+  border-color: var(--green-deep);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(31, 93, 10, 0.3);
+}
+
+.no-result {
+  text-align: center;
+  margin-top: 30px;
+  color: var(--green-dark);
+  font-size: 16px;
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .area-page{
+        margin-top: 80px;
+    }
+  .area-container {
+    padding: 22px;
+  }
+
+  .area-title {
+    font-size: 2rem;
+  }
+  #ward-search{
+    width: 80%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .area-page{
+        margin-top: 0px;
+        width: 100%;
+        padding: 80px 0px 0px 0px;
+    }
+  .area-container {
+    border-radius: 0px;
+    padding: 40px 20px 30px 20px;
+    box-shadow: none;
+}
+
+  .area-title {
+    font-size: 1.75rem;
+}
+.area-subtitle{
+      margin-left: 20px;
+    font-size: 0.65rem;
+    margin-bottom: 10px;
+  }
+  #ward-search{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 85%;
+  }
+    #ward-search input{
+        font-size: 1.1rem;
+    }
+  .ward-grid {
+    align-self: center;
+    width: 83.5%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+}

@@ -14,6 +14,8 @@ import Lostform from './components/Lostform';
 import Foundform from './components/Foundform';
 import About from './components/About';
 import Contact from './components/Contact';
+import Fullarea from './components/Fullarea';
+import Item from "./components/Item"
 function App() {
   return (
 
@@ -80,6 +82,7 @@ function App() {
             <Footer />
               </>
             } />
+
                <Route path="/contact" element={
               <>
             <Navbar />
@@ -87,6 +90,24 @@ function App() {
             <Footer />
               </>
             } />
+
+              <Route path="/area" element={
+              <>
+            <Navbar />
+            <Fullarea />
+            <Footer />
+              </>
+            } />
+
+            
+          <Route path="/item" element={
+              <>
+            <Navbar />
+            <Item />
+            <Footer />
+              </>
+            } />
+
       </Routes>
       
       

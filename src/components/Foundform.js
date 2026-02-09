@@ -18,6 +18,10 @@ const Foundform = () => {
         <label>Date : </label>
        <input type='date'/>
         </div>
+           <div> 
+        <label>Number : </label>
+       <input type='number' placeholder='Contact Number'/>
+        </div>
           <div> 
         <label>Description : </label>
        <textarea></textarea>

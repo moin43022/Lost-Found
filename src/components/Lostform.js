@@ -17,6 +17,10 @@ const Lostform = () => {
         <label>Date : </label>
        <input type='date'/>
         </div>
+                <div> 
+        <label>Number : </label>
+       <input type='number' placeholder='Contact Number'/>
+        </div>
           <div> 
         <label>Description : </label>
        <textarea placeholder='Massage'></textarea>

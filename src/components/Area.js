@@ -1,8 +1,9 @@
 import React from 'react'
+import { useNavigate} from 'react-router-dom';
 import "./area.css"
 
 const Area = () => {
-
+const navigate =useNavigate();
       const ward = [
   "Meldereshwer Mandir Ward 1",
   "Nag Mandir Ward 2",
@@ -48,7 +49,6 @@ const Area = () => {
   "Khedi Buzurg Ward 42"
 ];
 
-
   return (
     <div className='main-area-div'>
       <div className='area-div-left'>
@@ -72,8 +72,7 @@ const Area = () => {
   </ul>
 
 </div>
- 
- <button className='more-btn'> More Wards  <i class="fa-solid fa-arrow-right"></i></button>
+ <button className='more-btn' onClick={()=> navigate("/area")}> More Wards  <i class="fa-solid fa-arrow-right"></i></button>
     </div>
      <div className='area-div-right'>
      <div className='div-right-img'>

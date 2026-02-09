@@ -69,20 +69,35 @@ width: 100%;
    justify-self: center;
     height: 360px;
     width: 380px;
-    padding:30px 10px;
+    padding:20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
    gap: 40px;
     border:  1px silver solid;
     border-radius: 12px;
-    transition: transform 0.3s, border 0.3s;
+  transition: 
+    background 0.35s ease,
+    border-color 0.35s ease,
+    transform 0.35s ease;
 }
+
 .vision:hover {
-    border: solid silver 1px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+  transform: translateY(-7px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  cursor: pointer;
 }
+
+.vision:hover .vision-icon {
+  background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
+  border-color: transparent;
+}
+
+.vision:hover .vision-icon i {
+  color: #fff;
+  transform: scale(1.1);
+}
+
 
 .vision-icon{
     width: 120px;
@@ -94,7 +109,8 @@ width: 100%;
     border: solid 1px #3F4F3A;
 }
 .vision-icon i{
-    color: #3F4F3A;
+  color: #3F4F3A;
+  transition: color 0.35s ease, transform 0.35s ease;
     font-size: 60px;
 }
 .vision-text{
@@ -111,7 +127,10 @@ width: 100%;
 }
 .vision-text p{
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 0.9rem;
+    align-self: center;
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
 

@@ -21,7 +21,7 @@ We’re here to help and support you at every step of your journey with us. If y
         <div className="info-card">
           <i className="fa-solid fa-phone"></i>
           <h4>Phone</h4>
-          <p>+91 9893274291</p>
+          <p>+91 716520690</p>
         </div>
 
         <div className="info-card">
@@ -33,7 +33,7 @@ We’re here to help and support you at every step of your journey with us. If y
         <div className="info-card">
           <i className="fa-solid fa-envelope"></i>
           <h4>Email</h4>
-          <p>taifurahmad24@gmail.com</p>
+          <p>lost&found@gmail.com</p>
         </div>
       </div>
       </section>
