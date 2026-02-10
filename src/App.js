@@ -16,10 +16,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Fullarea from './components/Fullarea';
 import Item from "./components/Item"
+import Scroll from './components/Scroll';
 function App() {
   return (
 
        <BrowserRouter>
+       <Scroll />
        <Routes>
          <Route
             path="/"
@@ -104,6 +106,7 @@ function App() {
               <>
             <Navbar />
             <Item />
+            <SkillsSlider />
             <Footer />
               </>
             } />
