@@ -11,24 +11,14 @@ const Home = () => {
           <h1 className='find'>Found Something?</h1>
           <h1 className='find'>Lost Something?</h1>
           <h1 className='find'> We’ve Got You.</h1>
-          {/* <span className='with'>With</span> <span className='ease'> Ease</span> */}
-          {/* <p>Experience effortless recovery with our dedicated lost and found service.</p>
-          <div className='mid-main-div-p'>
-            <p>We're excited to help you find and recover lost items. Easily report lost belongings, search for found items, and connect with others. Our user-friendly platform aims to reunite you with your lost possessions quickly and efficiently.We're excited to help you find and recover lost items. Easily report lost belongings, search for found items, and connect with others.</p>
-          <p>Thank you for choosing our service. If you need assistance, feel free to contact us.</p>
-          <p>Happy searching and best of luck!</p>
-          </div> */}
+        
          <p className='mid-main-div-p' id='p-main'>• Secure and trusted platform.</p>
          <p className='mid-main-div-p'>• Simple, user-friendly experience.</p>
          <p className='mid-main-div-p'>• Report lost or found items easily.</p>
          <p className='mid-main-div-p'  id='p-main-last'>• Helping lost items find their way home.</p>
          <p className='mid-main-div-p' id='p-main-last' >• Faster recovery through community support.</p>
         
-        {/* <div className='mid-main-last-p'>
-         <p> <i class="fa-solid fa-check"></i> Secure Platform </p>
-         <p> <i class="fa-solid fa-check"></i> Community Verified </p>
-         <p> <i class="fa-solid fa-check"></i> Fast Recovery </p>
-        </div> */}
+       
           
       </div>
        <div className='mid-main-div-right'>

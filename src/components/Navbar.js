@@ -2,9 +2,13 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import SignInPopup from "./Sign";
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 801);
+const [showPopup, setShowPopup] = useState(false);
+const [LoggedIn, setLoggedIn] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,6 +25,8 @@ const Navbar = () => {
   }, []);
 
   return (
+      <>
+
     <div className="navbar-m-div">
       <div className="navbar-m-div-left">
         <div className="navbar-m-div-left-img">
@@ -75,10 +81,30 @@ const Navbar = () => {
           <Link to="/" className="contact-nav" onClick={() => setMenuOpen(false)}><li>Contact Us</li></Link>
           <Link to="/lost" onClick={() => setMenuOpen(false)}><li>Lost Items</li></Link>
           <Link to="/found" onClick={() => setMenuOpen(false)}><li>Found Items</li></Link>
-          <Link to="/" onClick={() => setMenuOpen(false)}><button>Sign in</button></Link>
+         <button
+  className="sign-btn"
+  onClick={() => {
+    if (LoggedIn) {
+      setLoggedIn(false);
+    } else {
+      setShowPopup(true);
+    }
+    setMenuOpen(false);
+  }}
+>
+  {LoggedIn ? "Logout" : "Sign In"}
+</button>
+          
         </motion.ul>
       </div>
     </div>
+       <SignInPopup
+      showPopup={showPopup}
+      setShowPopup={setShowPopup}
+      setLoggedIn={setLoggedIn}
+      isMobile={isMobile}
+    />
+  </>
   );
 };
 

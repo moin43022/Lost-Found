@@ -87,16 +87,13 @@ background: linear-gradient(135deg, #3F4F3A, #6b8f5f);
   font-family: 'Abel', sans-serif;
   font-weight: 600;
   border: none;
-  transition: all 0.3s ease;
-    cursor: pointer;
-    border: solid 1px #2F5D0A;
+transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar-m-div-right ul button:hover {
-  background: transparent;         
-  color: #3F4F3A;                 
-  border: 1px solid #3F4F3A;       
-  opacity: 1;                      
+  background: linear-gradient(135deg, #4a5d44, #7a9c6f);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .menu-icon {
