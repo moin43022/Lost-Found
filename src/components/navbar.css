@@ -11,6 +11,7 @@
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 .navbar-m-div-left{
     display: flex;
@@ -198,10 +199,15 @@ transition: background 0.3s ease, box-shadow 0.3s ease;
 
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-m-div-left-text{
-    margin-top: 40px;
+    margin-top: 27px;
+    margin-left: 2.5px;
   }
   .contact-nav{
   display: block;
+}
+.navbar-m-div-left-img {
+  width: 50px;
+  height: 70px;
 }
   .navbar-m-div{
     position: fixed;
@@ -212,18 +218,18 @@ transition: background 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
   }
 .navbar-m-div-right{
-  min-width: 150px;
+  min-width: 100px;
   margin-right: 0px;
 }
   .menu-icon {
     display: flex;
     justify-self: flex-end;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 27px;
   }
 
 .nav-links {
-  margin-top: 85px;
+  margin-top: 70px;
   position: absolute;
   top: 0px;
   border: none;

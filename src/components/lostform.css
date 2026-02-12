@@ -60,6 +60,15 @@ background-color: white;
     width: 300px;
 }
 
+.lostform-div form select{
+   font-size: 1.25rem;
+    border:  solid 1px silver;
+    border-radius: 5px;
+    padding: 10px 15px;
+    outline: none;
+    width: 300px;
+}
+
 .lostform-div form input[type="file"] {
   display: none;
 }
@@ -122,7 +131,7 @@ background-color: white;
 @media (min-width: 320px) and (max-width: 480px) {
 
  .lostform-div{
-  padding-top: 120px;
+  padding-top: 100px;
   margin: 0px;
   background-color: white;
  }
