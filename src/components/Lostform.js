@@ -65,9 +65,11 @@ const Lostform = () => {
 ];
   return (
     <div className='lostform-div'>
-        <h1>Report Lost Item</h1>
       <form>
-        <div> 
+        <h1>Report Lost Item</h1>
+
+       <div className='from-main-div'>
+         <div className='form-div'> 
         <label>Item : </label>
     <select name="category" id="category" required>
        {categories.map((item, index) => (
@@ -79,7 +81,8 @@ const Lostform = () => {
     </select>
 
         </div>
-       <div> 
+
+       <div className='form-div'> 
         <label>Location : </label>
        <select name="city" id="city" required>
        {ward.map((item, index) => (
@@ -90,39 +93,26 @@ const Lostform = () => {
 
     </select>
         </div>
-          <div> 
+       </div>
+
+        <div className='from-main-div'>
+  <div className='form-div'> 
         <label>Date : </label>
        <input type='date'/>
         </div>
-                <div> 
+
+         <div className='form-div'> 
         <label>Number : </label>
        <input type='number' placeholder='Contact Number'/>
         </div>
-          <div> 
+        </div>
+
+          <div className='from-main-div'>
+                <div className='form-div'> 
         <label>Email : </label>
        <input type='number' placeholder='Email Address'/>
         </div>
-          
-          <div> 
-            
-        <label>Description : </label>
-       <textarea placeholder='Massage'></textarea>
-        </div>
-      <div>
-  <label className="form-label">Upload  Photo :</label>
-
-  <input
-    type="file"
-    id="photoUpload"
-    accept="image/*"
-    hidden
-  />
-
-  <label htmlFor="photoUpload" className="img-upload">
-    <i className="fa-solid fa-upload"></i>
-  </label>
-</div>
-   <div>
+        <div className='form-div'>
   <label className="form-label">Upload Photo :</label>
 
   <input
@@ -136,6 +126,49 @@ const Lostform = () => {
     <i className="fa-solid fa-upload"></i>
   </label>
 </div>
+          </div>
+
+          <div className='from-main-div'>
+                
+      <div className='form-div'>
+  <label className="form-label">Upload Photo :</label>
+
+  <input
+    type="file"
+    id="photoUpload"
+    accept="image/*"
+    hidden
+  />
+
+  <label htmlFor="photoUpload" className="img-upload">
+    <i className="fa-solid fa-upload"></i>
+  </label>
+</div>
+   <div className='form-div'>
+  <label className="form-label">Upload Photo :</label>
+
+  <input
+    type="file"
+    id="photoUpload"
+    accept="image/*"
+    hidden
+  />
+
+  <label htmlFor="photoUpload" className="img-upload">
+    <i className="fa-solid fa-upload"></i>
+  </label>
+</div>
+        
+          </div>
+       
+
+         <div className='form-div-terabox'> 
+            
+        <label>Description : </label>
+       <textarea placeholder='Massage'></textarea>
+        </div>
+
+
  
 
         <button>Submit</button>
