@@ -106,7 +106,6 @@ function App() {
               <>
             <Navbar />
             <Item />
-            <SkillsSlider />
             <Footer />
               </>
             } />

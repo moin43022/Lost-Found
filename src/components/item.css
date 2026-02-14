@@ -128,11 +128,8 @@ gap: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
-  background-color: white;
+  height: 450px;
   position: relative;
- box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  border-radius: 12px;
   margin-top: 20px;
 }
 
@@ -172,11 +169,11 @@ gap: 10px;
 }
 
 .nav-arrow.left {
-  left: 24px;
+  left: 10px;
 }
 
 .nav-arrow.right {
-  right: 24px;
+  right: 10px;
 }
 
 .nav-arrow:hover {
@@ -224,7 +221,7 @@ height: 100%;
   font-size: 0.9rem;
 }
 .dp-text h3{
-    color: #b30000;
+    color: #3F4F3A;
   font-weight: 600;
 }
 .loc-dp{
@@ -361,6 +358,7 @@ height: 100%;
 
  .viewer-overlay {
   height: 400px;
+  width: 100%;
  }
  .viewer-image{
   min-width: 200px;
@@ -369,25 +367,48 @@ height: 100%;
  }
 
  .nav-arrow.right{
-  right: 5px;
+  right: 0px;
  }
  .nav-arrow.left{
-  left: 5px;
+  left: 0px;
  }
- .post-value{
-  font-size: 0.9rem;
- }
- #desc-lost{
-  width: 65%;
-  font-size: 0.8rem;
- }
- .post-info{
-  padding: 25px 10px 0px 10px;
- }
+.post-value.lost{
+  font-size: 1.1rem;
+}
+#item-d-1{
+  flex-direction: column;
+  gap: 7.5px;
+align-items: flex-start;
+}
+  .post-label{
+    width: auto;
+    font-weight: 600;
+  }
 
+  .post-value{
+    font-size: 0.9rem;
+  }
+  #status-lost{
+    align-self: flex-start;
+  }
+ .post-info{
+  padding: 25px 0px 0px 10px;
+ }
+ .post-item{
+  align-items: center;
+ }
+#desc-lost{
+  text-align: justify;
+  width: 80%;
+  font-size: 0.9rem;
+}
  .item-right{
   gap: 50px;
  }
+.nav-arrow{
+  padding-bottom: 5px;
+}
+ 
 }
 
 

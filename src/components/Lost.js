@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./lost.css"
 const Lost = () => {
   return (
@@ -14,7 +15,7 @@ const Lost = () => {
     </div>
 
         <div className='lost-card-div'>
-
+<Link to="/item">
           <div className="lost-card">
 
       <div className="lost-card-header">
@@ -48,6 +49,7 @@ const Lost = () => {
 
       </div>
     </div>
+</Link>
         <div className="lost-card">
 
       <div className="lost-card-header">

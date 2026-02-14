@@ -44,7 +44,7 @@ const Headphone = ({onClose}) => {
     <h2 className="post-title">Lost Item Details</h2>
 
     <div className="post-grid">
-      <div className="post-item">
+      <div className="post-item" >
         <p className="post-label" id="status-lost">Status : </p>
         <p className="post-value lost">Lost</p>
       </div>
@@ -63,9 +63,9 @@ const Headphone = ({onClose}) => {
         <p className="post-value">1:15 PM</p>
       </div>
 
-      <div className="post-item">
-        <p className="post-label" id="desc-loc">Location : </p>
-        <p className="post-value">Bus Stand, Ward 12, Khargone, Madhya Pradesh 451001.</p>
+      <div className="post-item" id="item-d-1">
+        <p className="post-label" >Location : </p>
+        <p className="post-value" id="desc-lost">Bus Stand, Ward 12, Khargone, Madhya Pradesh 451001.</p>
       </div>
       
        <div className="post-item">
@@ -79,13 +79,11 @@ const Headphone = ({onClose}) => {
         <p className="post-label">Gmail : </p>
         <p className="post-value">abcd@gmal.com</p>
       </div>
-      <div className="post-item full">
+      <div className="post-item full" id="item-d-1">
         <p className="post-label" id="desc-loc">Description : </p>
         <p className="post-value" id="desc-lost">
         A male person, approximately 32 years old, was last seen on 12 Feb 2026 at around 1:15 PM near the main bus stand, Ward 12.
            He was wearing a blue shirt and black trousers at the time.
-                If anyone has seen him or has any information, please contact immediately.  Black headphones lost near the main bus stand.
-          Please contact if found.
         </p>
       </div>
     </div>
