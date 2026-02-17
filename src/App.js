@@ -37,7 +37,6 @@ function App() {
             <Category />
             <Slider />
             <Footer />
-            <Graph />
               </>
             }
           />
