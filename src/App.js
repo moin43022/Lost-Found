@@ -17,6 +17,8 @@ import Contact from './components/Contact';
 import Fullarea from './components/Fullarea';
 import Item from "./components/Item"
 import Scroll from './components/Scroll';
+import Fullcategory from "./components/Fullcategory"
+import Graph from './components/Graph';
 function App() {
   return (
 
@@ -35,6 +37,7 @@ function App() {
             <Category />
             <Slider />
             <Footer />
+            <Graph />
               </>
             }
           />
@@ -110,6 +113,14 @@ function App() {
               </>
             } />
 
+
+             <Route path="/category" element={
+              <>
+            <Navbar />
+            <Fullcategory />
+            <Footer />
+              </>
+            } />
       </Routes>
       
       

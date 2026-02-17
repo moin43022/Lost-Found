@@ -46,6 +46,7 @@
 .category-items {
   text-align: center;
   padding:15px 12px;
+  max-width: 365px;
 }
 
 .category-items .category-icon {

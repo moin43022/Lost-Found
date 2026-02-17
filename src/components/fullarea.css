@@ -93,7 +93,9 @@
   color: var(--green-dark);
   font-size: 16px;
 }
-
+#category-div{
+  border-left: solid 1px silver;
+}
 
 @media (min-width: 600px) and (max-width: 800px) {
     .area-page{
@@ -124,7 +126,7 @@
 }
 
   .area-title {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
 }
 .area-subtitle{
       margin-left: 20px;
