@@ -19,6 +19,8 @@ import Item from "./components/Item"
 import Scroll from './components/Scroll';
 import Fullcategory from "./components/Fullcategory"
 import Graph from './components/Graph';
+import Admin from './components/Admin';
+import Aex from "./components/Aex"
 function App() {
   return (
 
@@ -120,6 +122,17 @@ function App() {
             <Footer />
               </>
             } />
+
+                 <Route path="/admin" element={
+              <>
+        
+          <Admin />
+        
+              </>
+            } />
+           
+
+
       </Routes>
       
       
