@@ -130,7 +130,13 @@ function App() {
         
               </>
             } />
-           
+             <Route path="/user" element={
+              <>
+        
+          <Aex />
+        
+              </>
+            } />
 
 
       </Routes>
