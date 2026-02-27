@@ -1052,6 +1052,13 @@ background: linear-gradient(135deg, #9d7bd8, #6a4fb3);
 .dashboard{
   padding-left: 0px;
 }
+
+    .admin-dp {
+        width: 220px;
+    }
+        .sidebar nav {
+        width: 220px;
+    }
 }
 
 
